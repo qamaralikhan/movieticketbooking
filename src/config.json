@@ -1,0 +1,6 @@
+{
+    "EVENT_API":"http://3.17.216.66:4000/events",
+    "UPCOMINGMOVIES":"http://3.17.216.66:4000/upcomingMovies",
+    "DETAILPAGE":"http://3.17.216.66/latest/5ab12612f36d2879268f284a",
+    "LATESTMOVIES":"http://3.17.216.66:4000/latest"
+}
