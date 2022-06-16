@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component, Fragment } from "react";
+import {Link} from 'react-router-dom'
 
 const App =()=>
 {
@@ -28,9 +29,10 @@ const App =()=>
     </div>
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul className="nav navbar-nav">
-        <li className="active"><a href="#">Latest Movies <span className="sr-only">(current)</span></a></li>
-        <li><a href="#">Upcoming Movies</a></li>       
-        <li><a href="#">Nearby Event</a></li> 
+        <li className="active">
+            <Link to="/Latestmovies">Latest Movies </Link></li>
+        <li><Link to="/Upcomingmovies">Upcoming Movies</Link></li>       
+        <li><Link to="/NearbyEvent">Nearby Event</Link></li> 
       </ul>      
     </div>
   </div>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Recommandedmovies extends   Component{
+class MovieSlider extends   Component{
 
     render()
     {
         return(
             <>
-            <h1>Recommandedmovies</h1> 
+            <h1>slider</h1> 
             </>
         )
     }
 }
-export default Recommandedmovies
+export default MovieSlider

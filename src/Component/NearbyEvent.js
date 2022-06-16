@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import config from '../config.json';
 
-class Otherliveevents extends Component {
+class NearbyEvent extends Component {
 
     constructor()
     {
@@ -10,8 +10,8 @@ class Otherliveevents extends Component {
 
     render(){
         return(
-            <h1>Welcome to Otherliveevents</h1>
+            <h1>Welcome to NearbyEvent</h1>
         )
     }
 }
-export default Otherliveevents;
+export default NearbyEvent;
